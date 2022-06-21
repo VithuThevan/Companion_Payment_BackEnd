@@ -9,6 +9,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('fileuploads', function (Blueprint $table) {
+            //This is the code
             $table->id();
             $table->string('Uploader_Name')->nullable();
             $table->string('File');
