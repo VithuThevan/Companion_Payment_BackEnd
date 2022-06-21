@@ -16,7 +16,7 @@ class FileUploadController extends Controller
         if($results){
             return ["File Uploaded to database"];
         }else{
-            return ["File Not Uploaded to database"];
+            return "File Not Uploaded to database";
         }
     }
 }
